@@ -1,7 +1,8 @@
 .video-footer {
   position: relative;
-  color: rgb(75, 25, 25);
-  bottom: 50px;
+  color: white;
+  bottom: 150px;
+  margin-left: 40px;
   display: flex;
 }
 
@@ -9,10 +10,31 @@
     flex: 1;
 }
 
+.video-footer-text > h3 {
+  padding-bottom: 20px
+}
+
+.video-footer-text > p {
+  padding-bottom: 20px
+}
+
+.video-footer-icon {
+  position: absolute;
+}
+
+.video-footer-ticker > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+
 .video-footer-record {
   animation: spinTheRecord infinite 5s linear;
   height: 50px;
-  /* filter: invert(1); */
+  filter: invert(1);
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }
 
 @keyframes spinTheRecord {
